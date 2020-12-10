@@ -1,0 +1,3 @@
+PDFNetPython3
+PyPDF2
+PyPDF4
