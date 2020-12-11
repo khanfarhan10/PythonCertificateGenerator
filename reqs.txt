@@ -1,3 +1,9 @@
-PDFNetPython3
-PyPDF2
-PyPDF4
+pdfrw>=0.4
+defusedxml
+
+
+
+# Failing
+#PDFNetPython3
+#PyPDF2
+#PyPDF4
