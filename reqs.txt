@@ -1,7 +1,7 @@
 pdfrw>=0.4
 defusedxml
-
-
+docxtpl
+python-docx
 
 # Failing
 #PDFNetPython3
