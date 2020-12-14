@@ -1,4 +1,5 @@
 
+"""
 from docx import Document
 
 document = Document('temp/mai6.docx')
@@ -29,4 +30,40 @@ for p in document.paragraphs:
             inline[i].text = text
 
 document.save('temp/mai_out7.docx')
-# python DocxGen6.py
+# python DocxGen7.py
+"""
+
+
+import zipfile
+
+z = zipfile.ZipFile("temp/mai6.docx")
+
+#print list of valid attributes for ZipFile object
+#print (dir(z))
+
+#print all files in zip archive
+all_files = z.namelist()
+#print (all_files)
+
+#get all files in word/media/ directory
+# images = filter(lambda x: x.startswith('word/media/') and (x.endswith('.png') or x.endswith('.jpg') or x.endswith('.jpeg') ), all_files)
+images=[]
+for x in all_files:
+    condition=x.startswith('word/media/') and (x.endswith('.png') or x.endswith('.jpg') or x.endswith('.jpeg') )
+    if condition:
+        images.append(x)
+print (images)
+
+for img in images:
+    image1 = z.open(img).read()
+    f = open(img,'wb')
+    f.write(image1)
+"""
+#open an image and save it
+image1 = z.open('word/media/image1.jpeg').read()
+f = open('image1.jpeg','wb')
+f.write(image1)
+
+#Extract file
+z.extract('word/media/image1.jpeg', r'path_to_dir')
+"""
