@@ -1,2 +1,20 @@
 MINISTRY OF HEALTH AND FAMILY WELFARE
 Government of India
+
+
+
+ 
+
+MINISTRY OF HEALTH AND FAMILY WELFARE
+Government of India
+Certificate of Virtual Checkup
+ 
+TH I S E L E C T R O N I C H E A L T H C H E C K U P I S P R E S E N T E D T O
+Damik_Dhar
+Coronavirus Scale : 00.00%
+ Automated Tests : Passed_1 Manual Tests : Passed_2
+Comments : Description
+UID (Aadhaar) : XXXX-XXXX-XXXX
+Certificate ID : AAAA-AAAA-AAAA
+ 
+ 	   F. H. Khan	
