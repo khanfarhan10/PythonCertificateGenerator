@@ -11,7 +11,7 @@ dic = {'Your_Amazing_Name': 'Farhan Hai Khan',
        'Description': 'Comments : Fit for Travel',
        'UID_Aadhaar': 'UID (Aadhaar) : 7458-2541-7364',
        'Cert': 'Certificate ID : 9546-8741-9463',
-       'Generated':'Generated : 22.06.2020 5:30GMT',
+       'Generated': 'Generated : 22.06.2020 5:30GMT',
        'Signature': 'Rameshwar Manav',
        'Esteemed': 'RAMESHWAR MANAV',
        'Designation': 'Chief Engg. DVC',
@@ -29,4 +29,14 @@ for p in document.paragraphs:
             inline[i].text = text
 
 document.save('temp/mai_out7.docx')
+
+# save to pdf
+
+"""
+from docx2pdf import convert
+
+convert("input.docx", "output.pdf")
+
+"""
+
 # python DocxGen6.py
