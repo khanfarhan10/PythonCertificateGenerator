@@ -1,5 +1,14 @@
-# PythonCertificateGenerator
-Certificate Generator in Python using PDF/DOCX/Images.
+# Python Certificate Generator
+Certificate Generator in Python using <strike>PDF</strike>/DOCX/Images.
+
+### DOCXs
+There are handcrafted docx files that can be used as templates to replace text characters. The following tutorial displayes the same.
+
+### QRCode
+- https://medium.com/better-programming/how-to-generate-and-decode-qr-codes-in-python-a933bce56fd0
+
+##### Note : Some of the templates may not work and you might have to manually check through converting a single generated file several times before actually performing production-quality generated Certificates. Also it is often found that docx files converted to pdf may not work at all.
+
 
 ### PDFs
 Make Sure to use All Characters A-Za-z etc as text replacement for placeholders.
